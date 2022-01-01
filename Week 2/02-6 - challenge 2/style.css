@@ -76,6 +76,8 @@ h1 {
 .hero__img {
 	width: 36%;
 	align-self: flex-start;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .hero p {
@@ -102,6 +104,39 @@ h1 {
 	text-align: center;
 	padding: 1.4em 1.5em;
 	border-radius: 4px;
+}
+
+.nav {
+	background-color: #136c72;
+	margin: 0;
+	padding: 28px 0;
+}
+
+ul.row {
+	list-style-type: none;
+	padding: 0;
+	justify-content: flex-start;
+	/* justify-content: space-between; */
+}
+
+.list + .list {
+	margin-left: 3rem;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.cta {
+	background-color: #fff;
+	color: #136c72;
+	padding: 0.8rem 2rem;
+	border-radius: 3rem;
+}
+
+.cta:hover {
+	opacity: 0.5;
 }
 
 .btn {
