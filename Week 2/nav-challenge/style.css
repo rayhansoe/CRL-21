@@ -95,7 +95,11 @@ header > .container.row {
 	margin: 0;
 	padding: 1em 0;
 	list-style: none;
-	/* border: 2px solid red; */
+	font-size: 0.9rem;
+}
+
+.nav-primary {
+	margin: 0 auto;
 }
 
 .nav__item + .nav__item {
